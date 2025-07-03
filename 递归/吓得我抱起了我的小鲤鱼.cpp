@@ -1,18 +1,18 @@
 #include <cstdio>
 
 void f(int n) {
-    if (n == 0) printf(" ÎÒµÄĞ¡ÀğÓã");
+    if (n == 0) printf(" æˆ‘çš„å°é²¤é±¼");
     else {
-        printf("±§×Å");
+        printf("æŠ±ç€");
         f(n - 1);
-        printf("µÄÎÒ");
+        printf("çš„æˆ‘");
     }
 }
 
 int main() {
     int n;
     scanf("%d", &n);
-    printf("ÏÅµÃÎÒ±§ÆğÁË");
+    printf("å“å¾—æˆ‘æŠ±èµ·äº†");
     f(n);
 
     return 0;
