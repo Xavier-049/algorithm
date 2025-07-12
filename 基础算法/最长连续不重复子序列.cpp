@@ -1,10 +1,3 @@
-/*
-* @acwing app=acwing.cn id=801 lang=C++
-*
-* 799. 最长连续不重复子序列
-*/
-
-// @acwing code start
 #include <iostream>
 using namespace std;
 
@@ -33,4 +26,3 @@ int main() {
     return 0;
 }
 
-// @acwing code end
